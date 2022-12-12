@@ -14,6 +14,8 @@ I first choosen [this](https://law.di.unimi.it/webdata/hollywood-2011/) graph. I
 Nevertheless, as much as I tried, I couldn't download the graph as a .txt file, so because of that I had to choose another graph to work with. After discussing with my professor, we came to an agreement, and the dataset that I used for this project is [the following](https://snap.stanford.edu/data/ego-Gplus.html). This is a social graph of the circles of Google+, the data was collected from users who had manually shared their circles using the 'share circle' feature.  
 
 The dataset is a .txt file with **30,494,866** lines, where every line is composed of a connection between two nodes. And the question that I answered is the mean distance between all nodes of the graph.  
+
+In order to run the program, please refer to [this](https://drive.google.com/file/d/1Je7mNbJ7k8VKFKeOuDTEb8PcvkEDs0Ye/view?usp=sharing) link, download the data and put it in the same folder of this project. After that, you have to build the program, I recommend to do it by *cargo run --release* because doing it without release would take a lot of time. 
 <br>
 
 ## Steps
